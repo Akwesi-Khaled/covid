@@ -35,7 +35,7 @@ try:
 except KeyError:
     st.error("⚠️ **API Keys Missing!** Please configure `secrets.toml` or Streamlit secrets.")
     API_HOST = "covid-19-data.p.rapidapi.com" # Placeholder host
-    API_KEY = "YOUR_API_KEY_HERE" # Placeholder key
+    API_KEY = "7ef75016e6mshd080ad5607cce21p1878a4jsn7352066fcd77" # Placeholder key
 
 # --- API Caching Function ---
 @st.cache_data(ttl=3600) # Cache the data for 1 hour (3600 seconds)
