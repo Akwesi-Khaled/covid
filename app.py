@@ -8,10 +8,10 @@ st.set_page_config(page_title="COVID-19 Tracker", layout="wide")
 st.title("🌍 COVID-19 Latest Statistics")
 
 # ---- API DETAILS ----
-url = "https://covid-193.p.rapidapi.com/statistics"
+url = "https://covid-19-data.p.rapidapi.com"
 headers = {
     "X-RapidAPI-Key": st.secrets["RAPIDAPI_KEY"],
-    "X-RapidAPI-Host": "covid-193.p.rapidapi.com"
+    "X-RapidAPI-Host": "covid-19-data.p.rapidapi.com"
 }
 
 # ---- FETCH DATA ----
